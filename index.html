@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Landing Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <a class="navbar-brand" href="#">MyAirline</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to MyAirline</h1>
+            <p class="lead">Fly with comfort and style to your favorite destinations.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Features</h2>
+            <div id="featureCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-md-4 text-center">
+                                <img src="Image/Seat.jpg" alt="Feature 1" class="feature-img img-fluid mb-3">
+                                <h3>Comfortable Seating</h3>
+                                <p>Experience the most comfortable seating with extra legroom and reclining options.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-md-4 text-center">
+                                <img src="Image/Entertainment.jpg" alt="Feature 2" class="feature-img img-fluid mb-3">
+                                <h3>In-flight Entertainment</h3>
+                                <p>Enjoy a wide selection of movies, music, and games during your flight.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-md-4 text-center">
+                                <img src="Image/Meal.webp" alt="Feature 3" class="feature-img img-fluid mb-3">
+                                <h3>Gourmet Meals</h3>
+                                <p>Savor delicious meals prepared by top chefs, with options for every taste.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="col-md-4 text-center">
+                                <img src="Image/PriorityBoarding.jpg" alt="Feature 4" class="feature-img img-fluid mb-3">
+                                <h3>Priority Boarding</h3>
+                                <p>Board the plane first and settle in with ease, ensuring a smooth start to your journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#featureCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#featureCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="Image/Customer.png" alt="Customer 1" class="testimonial-img mr-3">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">The best flying experience I've ever had!</p>
+                        <footer class="blockquote-footer">John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="Image/Customer.png" alt="Customer 2" class="testimonial-img mr-3">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Amazing service and friendly staff!</p>
+                        <footer class="blockquote-footer">Jane Smith</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Contact Form -->
+    <footer id="contact" class="bg-muted py-4">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="social-links mt-3">
+                <a href="#"><img src="Image/instagram-MOVE.png" alt="Instagram" class="social-icon"></a>
+                <a href="#"><img src="Image/tiktok-MOVE.png" alt="Tiktok" class="social-icon"></a>
+                <a href="#"><img src="Image/linkedin-MOVE.png" alt="Linkedin" class="social-icon"></a>
+                <a href="#"><img src="Image/x-MOVE.png" alt="twitter" class="social-icon"></a>
+                <a href="#"><img src="Image/youtube-MOVE.png" alt="Youtube" class="social-icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
