@@ -14,11 +14,13 @@ body {
     box-sizing: border-box;
 }
 
+/* Section padding */
 .pb-5, .py-5, .pt-5, .py-5 {
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
+/* Margin-bottom h2 */
 .h2, h2 {
     margin-bottom: 16px;
 }
@@ -38,7 +40,7 @@ body {
     scrollbar-width: none;
 }
 
-.col-md-4 {
+.col-md-5 {
     border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 20px;
@@ -55,7 +57,6 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease, box-shadow 0.3s ease;
@@ -64,6 +65,16 @@ body {
 .carousel-item:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
     transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+/* Carousel previous next button size */
+.p-3 {
+    padding: 18px;
+}
+
+/* Carousel previous next button position */
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
 }
 
 blockquote {
