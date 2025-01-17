@@ -1,7 +1,7 @@
 # LandingPage
 
 ## Project Description
-The **MyAirline Landing Page** is a responsive and visually appealing website template designed for an airline company. It highlights the airline's features, customer testimonials, and includes a contact form for user inquiries.
+The **Landing Page** is a responsive and visually appealing website template designed for an airline company. It highlights the airline's features, customer testimonials, and includes a contact form for user inquiries.
 
 ---
 
@@ -25,12 +25,12 @@ Ensure you have the following installed on your system:
 ### Steps to Run Locally
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/myairline-landing-page.git
+   git clone https://github.com/yunyi24/LandingPage.git
    ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd myairline-landing-page
+   cd LandingPage
    ```
 
 3. **Open the Project in Your Browser**:
